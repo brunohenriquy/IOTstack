@@ -96,6 +96,7 @@ echo "./volumes/" >> $BACKUPLIST
 [ -f "./postbuild.sh" ] && echo "./postbuild.sh" >> $BACKUPLIST
 [ -f "./post_backup.sh" ] && echo "./post_backup.sh" >> $BACKUPLIST
 [ -f "./pre_backup.sh" ] && echo "./pre_backup.sh" >> $BACKUPLIST
+[ -f "./docker-compose.override.yml" ] && echo "./docker-compose.override.yml" >> $BACKUPLIST
 
 sudo tar -czf $TMPBACKUPFILE -T $BACKUPLIST >> $LOGFILE 2>&1
 
