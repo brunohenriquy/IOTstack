@@ -4,7 +4,7 @@ opencanary:
    volumes:
      - ./volumes/opencanary/opencanary.conf:/root/.opencanary.conf
    image: "brunohenriquy/opencanary"
-   ports:
+#   ports:
      # Comment/un-comment the port lines below to disable/enable the services you are using
      # FTP
      # - "21:21"
