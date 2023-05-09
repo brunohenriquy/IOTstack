@@ -6,6 +6,7 @@
 __pycache__
 docker-compose.yml
 compose-override.yml
+docker-compose.override.yml
 postbuild.sh
 pre_backup.sh
 post_backup.sh
