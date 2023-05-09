@@ -7,7 +7,7 @@ opencanary:
    ports:
      # Comment/un-comment the port lines below to disable/enable the services you are using
      # FTP
-     - "21:21"
+     # - "21:21"
      # SSH
      # - "22:22"
      # Telnet
@@ -15,7 +15,7 @@ opencanary:
      # TFTP
      # - "69:69"
      # HTTP
-     - "80:80"
+     # - "80:80"
      # NTP
      # - "123:123"
      # SNMP
