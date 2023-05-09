@@ -1,4 +1,5 @@
 opencanary:
+   container_name: opencanary
    restart: unless-stopped
    volumes:
      - ./volumes/opencanary/opencanary.conf:/root/.opencanary.conf
