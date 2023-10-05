@@ -23,4 +23,5 @@ post_restore.sh
 *.code-workspace
 
 .idea
+.DS_Store
 
